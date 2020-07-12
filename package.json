@@ -1,10 +1,10 @@
 {
   "name": "mycoil",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "A 2Kb lib mimicking Facebook's Recoil",
   "main": "lib/mycoil.js",
   "scripts": {
-    "cleanup": "rm ./lib/* || true",
+    "cleanup": "rm ./lib/*.js || true",
     "transpile": "./node_modules/.bin/babel ./src --out-dir ./lib",
     "build": "npm run cleanup && npm run transpile && browserify ./src/mycoil.js -o ./lib/mycoil.browser.js --standalone Mycoil --external react && terser ./lib/mycoil.browser.js -o ./lib/mycoil.browser.min.js --compress --mangle"
   },
