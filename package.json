@@ -1,6 +1,6 @@
 {
   "name": "mycoil",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "description": "A 2Kb lib mimicking Facebook's Recoil",
   "main": "lib/mycoil.js",
   "scripts": {

@@ -1,6 +1,6 @@
 # Mycoil
 
-A 2Kb replica of the Facebook's Recoil library
+A 2Kb replica of the Facebook's [Recoil](https://recoiljs.org/) library
 
 ### Defining an atom
 
