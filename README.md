@@ -39,7 +39,7 @@ atom({
 
 selector({
   key: "formattedValue",
-  get: ({ get }: { get: Function }) => {
+  get: ({ get }) => {
     return `Counter: ${get("counterState")}`;
   },
 });
