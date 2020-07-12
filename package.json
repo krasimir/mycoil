@@ -1,0 +1,25 @@
+{
+  "name": "mycoil",
+  "version": "0.1.0",
+  "description": "A small lib mimicking Facebook's recoil",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/krasimir/mycoil.git"
+  },
+  "keywords": [
+    "recoil",
+    "replica",
+    "alternative",
+    "mimicking"
+  ],
+  "author": "Krasimir Tsonev",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/krasimir/mycoil/issues"
+  },
+  "homepage": "https://github.com/krasimir/mycoil#readme"
+}
