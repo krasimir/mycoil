@@ -1,10 +1,12 @@
 {
   "name": "mycoil",
-  "version": "0.1.1",
-  "description": "A small lib mimicking Facebook's Recoil",
+  "version": "0.1.2",
+  "description": "A 2Kb lib mimicking Facebook's Recoil",
   "main": "lib/mycoil.js",
   "scripts": {
-    "build": "rm ./lib/* && browserify ./src/mycoil.js -o ./lib/mycoil.js --standalone Mycoil --external react && terser ./lib/mycoil.js -o ./lib/mycoil.min.js --compress --mangle"
+    "cleanup": "rm ./lib/* || true",
+    "transpile": "./node_modules/.bin/babel ./src --out-dir ./lib",
+    "build": "npm run cleanup && npm run transpile && browserify ./src/mycoil.js -o ./lib/mycoil.browser.js --standalone Mycoil --external react && terser ./lib/mycoil.browser.js -o ./lib/mycoil.browser.min.js --compress --mangle"
   },
   "repository": {
     "type": "git",
@@ -33,6 +35,7 @@
   },
   "devDependencies": {
     "babel-core": "6.26.3",
+    "babel-cli": "6.26.0",
     "babel-plugin-transform-object-rest-spread": "6.26.0",
     "babel-preset-es2015": "6.24.1",
     "babel-preset-react": "6.24.1",
