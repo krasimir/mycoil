@@ -41,7 +41,7 @@ export function useMycoilState(key) {
   }, []);
 
   return [
-    bridgeValue,
+    state.get(),
     (newValue) => {
       state.set(newValue);
     },
