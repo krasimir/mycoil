@@ -2,6 +2,10 @@
 
 A 2Kb replica of the Facebook's [Recoil](https://recoiljs.org/) library.
 
+---
+
+A bit of a story here - [Recreating Facebook's Recoil library](http://krasimirtsonev.com/blog/article/recreating-facebooks-recoil)
+
 ## Installation
 
 `npm install mycoil` or `yarn add mycoil`. Or maybe directly on the web [https://unpkg.com/mycoil@latest/lib/mycoil.browser.min.js](https://unpkg.com/mycoil@latest/lib/mycoil.browser.min.js).
