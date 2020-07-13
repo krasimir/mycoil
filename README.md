@@ -1,6 +1,6 @@
 # Mycoil
 
-A 2Kb replica of the Facebook's [Recoil](https://recoiljs.org/) library.
+A 1Kb replica of the Facebook's [Recoil](https://recoiljs.org/) library.
 
 ---
 
