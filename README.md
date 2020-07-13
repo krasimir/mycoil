@@ -1,8 +1,12 @@
 # Mycoil
 
-A 2Kb replica of the Facebook's [Recoil](https://recoiljs.org/) library
+A 2Kb replica of the Facebook's [Recoil](https://recoiljs.org/) library.
 
-### Defining an atom
+## Installation
+
+`npm install mycoil` or `yarn add mycoil`. Or maybe directly on the web [https://unpkg.com/mycoil@latest/lib/mycoil.browser.min.js](https://unpkg.com/mycoil@latest/lib/mycoil.browser.min.js).
+
+## Defining an atom
 
 ```js
 atom({
@@ -13,7 +17,7 @@ atom({
 
 To use it in `useMycoilState` pass the `key`, not the atom itself. Same for getting the value in a selector.
 
-### Defining a selector
+## Defining a selector
 
 ```js
 selector({
@@ -26,7 +30,7 @@ selector({
 
 To use it in `useMycoilValue` pass the `key`, not the selector itself.
 
-### Complete example
+## Complete example
 
 ```jsx
 import React from "react";
